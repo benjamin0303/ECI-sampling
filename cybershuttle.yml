@@ -1,0 +1,31 @@
+project:
+  name: "ECI_sampling"
+  description: "Codes from the official repository of ECI sampling"
+  homepage: "https://github.com/benjamin0303/ECI-sampling"
+  authors:
+    - jaewanp2@illinois.edu
+  tags:
+    - ECI_sampling
+    - Functional_flow_matching
+    - Gradient_free_sampling
+ 
+workspace:
+  resources:
+    min_cpu: 16
+    min_mem: 32000
+    min_gpu: 1
+    gpu_mem: 1024
+  model_collection: []
+  data_collection: []
+ 
+additional_dependencies:
+  modules: []
+  conda:
+    - python=3.10
+    - pip
+    - make
+    - cmake
+    - compilers
+    - openmpi
+    - wget
+  pip: []  
